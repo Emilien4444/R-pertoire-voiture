@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Ferrari </title>
+            <meta charset= 'utf-8'>
+            <link rel="stylesheet" href="Projets.css">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div class="div2">
+        <p> <h2> Ferrari </h2></p>
+        </div>
+        <br><br><br><br>
+        
+        <div class="div5"> 
+            <p> <h3> 1. Ferrari LaFerrari (2013-2016) </h3></p>
+        </div>
+        
+        <img src="Images\Ferrari\Ferrari-LaFerrari.png" alt="Ferrari LaFerrari 2016">
+        <img src="Images\Ferrari\Ferrari-LaFerrari-2.png" alt="Ferrari LaFerrari 2016">
+        <img src="Images\Ferrari\Ferrari-LaFerrari-3.png" alt="Ferrari LaFerrari 2016">
+        
+        <br><br><br><br>
+        <div class="div6">
+            <p> La Ferrari LaFerrari est une voiture hybride haute performance produite par Ferrari entre 2013 et 2016. Elle était équipée d'un moteur V12 atmosphérique
+            de 6,3 litres, associé à un moteur électrique, offrant une puissance totale combinée de plus de 950 chevaux. La LaFerrari était la première Ferrari à utiliser
+            un système de récupération d'énergie cinétique (KERS) dérivé de la Formule 1, lui conférant des performances extraordinaires sur piste et sur route. Elle était
+            également dotée de technologies aérodynamiques avancées pour une efficacité maximale. <br> <h4> Prix : 3.6 million d'euros</h4></p>
+            <br>
+        </div>
+        <br><br><br><br>
+        
+        <div class="div5"> 
+            <p> <h3> 2. Ferrari 488 pista spider (2019) </h3></p>
+        </div>
+        
+        <img src="Images\Ferrari\Ferrari-488Pista.png" alt="Ferrari 488 pista spider ">
+        <img src="Images\Ferrari\Ferrari-488Pista-2.png" alt="Ferrari 488 pista spider ">
+        <img src="Images\Ferrari\Ferrari-488Pista-3.png" alt="Ferrari 488 pista spider ">
+        
+        <br><br><br><br>
+        <div class="div6">
+            <p> La Ferrari 488 Pista spider a été dévoilée pour la première fois au Salon de l'Automobile de Genève en 2018. Elle s'inscrit dans la lignée des versions "Speciale"
+            de Ferrari, telles que la 458 Speciale et la 430 Scuderia, qui sont des variantes plus légères, plus puissantes et plus orientées vers la piste des modèles de
+            production standard. La 488 Pista est une évolution naturelle de la 488 GTB, bénéficiant de nombreuses améliorations techniques et aérodynamiques pour offrir
+            des performances encore plus impressionnantes. <br> <h4> Prix : 440 000 euros</h4></p>
+            <br>
+        </div>
+        <br><br><br><br>
+        
+        <div class="div5"> 
+            <p> <h3> 3.Ferrari SF90 Stradale </h3></p>
+        </div>
+        
+        <img src="Images\Ferrari\Ferrari-SF90.png" alt="Ferrari SF90 Stradale ">
+        <img src="Images\Ferrari\Ferrari-SF90-2.png" alt="Ferrari SF90 Stradale ">
+        <img src="Images\Ferrari\Ferrari-SF90-3.png" alt="Ferrari SF90 Stradale ">
+        
+        <br><br><br><br>
+        <div class="div6">
+            <p> La Ferrari SF90 Stradale est la première Ferrari de série à propulsion hybride plug-in (PHEV). Dotée d'un moteur V8 biturbo de 4,0 litres associé à trois
+            moteurs électriques, la SF90 Stradale offre une puissance totale de plus de 1 000 chevaux, ce qui en fait la Ferrari de série la plus puissante à ce jour.
+            Elle est également la première Ferrari à être équipée de quatre roues motrices. La SF90 Stradale est conçue pour offrir des performances de supercar extrêmes
+            tout en offrant une efficacité énergétique améliorée grâce à son système hybride avancé. <br> <h4> Prix : 600 000 euros</h4></p>
+            <br>
+        </div>
+        <br><br><br><br>
+        </body>
+    </html>
