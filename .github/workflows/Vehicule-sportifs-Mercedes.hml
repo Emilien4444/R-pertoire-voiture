@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Mercedes </title>
+            <meta charset= 'utf-8'>
+            <link rel="stylesheet" href="Type-de-vehicule/Vehicule-ancien/Projets.css">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        </head>
+        <body>
+        <div class="div2">
+        <p> <h2> Mercedes </h2> </p>
+        </div>
+        <br>
+        
+        <div class="div5"> 
+            <p> <h3> 1.Mercedes-AMG Project ONE  </h3></p>
+        </div>
+        
+        <img src="Images\Mercedes\Mercedes-amg-ProjectOne.png" alt="Mercedes-AMG Project ONE">
+        <img src="Images\Mercedes\Mercedes-amg-ProjectOne-2.png" alt="Mercedes-AMG Project ONE ">
+        <img src="Images\Mercedes\Mercedes-amg-ProjectOne-3.png" alt="Mercedes-AMG Project ONE ">
+        
+        <br><br><br><br>
+        <div class="div6">
+            <p>La Mercedes-AMG Project ONE est une hypercar révolutionnaire inspirée de la technologie de la Formule 1. Dévoilée pour la première fois au Salon de l'Automobile de
+            Francfort en 2017, la Project ONE repousse les limites de l'ingénierie automobile avec son groupe motopropulseur hybride haute performance directement dérivé des voitures
+            de course de Mercedes-AMG Petronas Formula One Team. Dotée d'un moteur V6 turbo hybride et de quatre moteurs électriques, la Project ONE offre des performances
+            impressionnantes sur route et une expérience de conduite incomparable. Avec une production limitée à seulement 275 exemplaires, la Project ONE représente le summum du
+            savoir-faire technologique de Mercedes-AMG. <br> <h4> Prix : 2.275 Million d'euros</h4></p>
+            <br>
+        </div>
+        <br><br><br><br>
+        
+        <div class="div5"> 
+            <p> <h3> 2.Mercedes-AMG GT  </h3></p>
+        </div>
+        
+        <img src="Images\Mercedes\Mercedes-AMG-GT.png" alt="Mercedes-AMG GT">
+        <img src="Images\Mercedes\Mercedes-AMG-GT-2.png" alt="Mercedes-AMG GT ">
+        <img src="Images\Mercedes\Mercedes-AMG-GT-3.png" alt="Mercedes-AMG GT ">
+        
+        <br><br><br><br>
+        <div class="div6">
+            <p>  La Mercedes-AMG GT est une voiture de sport développée par Mercedes-AMG, la branche hautes performances de Mercedes-Benz. Elle a été introduite en 2014 en
+            remplacement de la SLS AMG. La GT est proposée dans différentes variantes, allant de la GT de base à la puissante GT R et à la GT Black Series. Ces modèles
+            incarnent l'expertise de Mercedes-AMG en matière de performances et de design, offrant une expérience de conduite exaltante associée au confort et au luxe
+            caractéristiques de Mercedes-Benz. <br> <h4> Prix : 160 000 euros</h4></p>
+            <br>
+        </div>
+        <br><br><br><br>
+         
+         <div class="div5"> 
+            <p> <h3> 3.Mercedes-AMG GT 4-Door Coupe (2019) </h3></p>
+        </div>
+        
+        <img src="Images\Mercedes\Mercedes-AMG-GT-4-portes.png" alt="Mercedes-AMG GT 4-Door Coupe">
+        <img src="Images\Mercedes\Mercedes-AMG-GT-4-portes-2.png" alt="Mercedes-AMG GT 4-Door Coupe ">
+        <img src="Images\Mercedes\Mercedes-AMG-GT-4-portes-3.png" alt="Mercedes-AMG GT 4-Door Coupe">
+        
+        <br><br><br><br>
+        <div class="div6">
+            <p>  La Mercedes-AMG GT 4-Door Coupe est une extension de la gamme AMG GT, offrant les performances et le style emblématiques de la GT dans une configuration de berline
+            à quatre portes. Elle a été présentée pour la première fois en 2018 au Salon de l'Automobile de Genève. Disponible dans une variété de configurations, y compris des versions
+            à quatre roues motrices et des modèles équipés du système de propulsion hybride EQ Boost, la GT 4-Door Coupe offre une combinaison unique de performances et de praticité.
+            <br> <h4> Prix : 220 000 euros</h4></p>
+            <br>
+        </div>
+        <br><br><br><br>
+        </body>
+    </html>
