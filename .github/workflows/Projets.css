@@ -1,0 +1,53 @@
+body{
+    font-family :'Open Sans', sans-serif ;
+    background-color: #CCC ;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}
+h1{
+    text-align : center; /*titre au centre */
+}
+
+.div1{
+    text-align : center; /*titre au centre */
+    text-transform: uppercase ; /*titre en majuscule */
+    text-decoration: underline; /*titre en sous-ligné */
+}
+
+.div2{
+    text-decoration: underline; /*titre en sous-ligné */
+    text-indent: 100px; /* decale le texte vers la droite*/
+    text-decoration: underline; /*titre en sous-ligné */
+}
+
+.div3{
+    text-align : center; /*titre au centre */
+    text-decoration: underline; /*titre en sous-ligné */
+}
+
+.div4{
+    color: #FFF ;
+    background-color: #808080;
+    height: 530px;
+    width: 1000px; /* largeur*/
+    border: 15px ridge black; /* taille, type, couleur bordure*/
+    padding: 20px 50px 20px 40px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
+    margin: auto; /* marge extérieur permet de centrer par rapport au parent */
+}
+
+.div5{
+    text-indent: 200px; /* decale le texte vers la droite*/
+}
+
+.div6{
+    color: #FFF ;
+    background-color: #808080;
+    height: 200px;
+    width: 1000px; /* largeur*/
+    border: 5px solid black; /* taille, type, couleur bordure*/
+    padding: 10px 15px 20px 40px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
+    margin: auto; /* marge extérieur permet de centrer par rapport au parent */
+}
