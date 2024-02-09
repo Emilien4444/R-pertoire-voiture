@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Mercedes </title>
+            <meta charset= 'utf-8'>
+            <link rel="stylesheet" href="Projets.css">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div class="div2">      
+            <p> <h2> Mercedes </h2></p>
+        </div>
+        
+        <div class="div5"> 
+            <p> <h3> 1. Mercedes-Benz 300 SL "Gullwing"  </h3></p>
+        </div>
+        
+        <img src="Images\Mercedes\Mercedes-300-SL.png" alt="Mercedes-benz 300 SL Gullwing (1955)">
+        <img src="Images\Mercedes\Mercedes-300-SL-2.png" alt="Mercedes-benz 300 SL Gullwing (1955)">
+        
+        <br><br><br><br>
+        <div class="div6">
+            <p>La 300 SL est l'une des voitures les plus emblématiques de Mercedes-Benz, avec ses portes papillon distinctives lui donnant le surnom de "Gullwing" (ailes de mouette). Elle est propulsée par un moteur
+            six cylindres en ligne de 3,0 litres, produisant environ 215 chevaux. Dotée d'une carrosserie en aluminium et d'un châssis tubulaire, la 300 SL était à la fois légère et performante. Elle était également la
+            première voiture de série à être équipée d'injection directe, assurant une puissance et une efficacité remarquables.<br> <h4> Prix : 6.8 Million d'euros </h4></p>
+            <br>
+        </div>
+        <br><br><br><br>
+        
+        <div class="div5"> 
+            <p> <h3> 2. Mercedes-Benz 600  </h3></p>
+        </div>
+        
+        <img src="Images\Mercedes\Mercedes-600.png" alt="Mercedes-benz 600 (1969)">
+        <img src="Images\Mercedes\Mercedes-600-2.png" alt="Mercedes-benz 600 (1969)">
+        
+        <br><br><br><br>
+        <div class="div6">
+            <p>La Mercedes-Benz 600, souvent surnommée "Grosser" (grande), était la limousine de luxe ultime de son époque. Propulsée par un moteur V8 ou V12, selon la version, cette limousine offrait des performances
+            impressionnantes malgré sa taille imposante. Elle était équipée d'une suspension hydropneumatique révolutionnaire, de freins assistés, de vitres électriques et de sièges réglables, offrant un confort et une
+            sophistication inégalés. La 600 était également disponible en version Pullman, offrant un espace intérieur encore plus généreux.<br> <h4> Prix : 230 000 euros </h4></p>
+            <br>
+        </div>
+        <br><br><br><br>
+        
+        <div class="div5"> 
+            <p> <h3> 3. Mercedes-Benz 190 SL  </h3></p>
+        </div>
+        
+        <img src="Images\Mercedes\Mercedes-190-SL.png" alt="Mercedes-Benz 190 SL (1956)">
+        <img src="Images\Mercedes\Mercedes-190-SL-2.png" alt="Mercedes-Benz 190 SL (1956)">
+        
+        <br><br><br><br>
+        <div class="div6">
+            <p>La Mercedes-Benz 190 SL était une voiture de sport élégante et raffinée, souvent considérée comme la "petite sœur" de la célèbre 300 SL. Propulsée par un moteur quatre cylindres en ligne de 1,9 litre, développant
+            environ 105 chevaux, la 190 SL offrait des performances plus accessibles tout en conservant le style distinctif de son aînée. Avec sa carrosserie décapotable et son intérieur luxueux, la 190 SL était très appréciée
+            des amateurs de voitures de sport élégantes et sophistiquées. <br> <h4> Prix : 130 000 euros </h4></p>
+            <br>
+        </div>
+        <br><br><br><br><br><br>
+        </body>
+    </html>
