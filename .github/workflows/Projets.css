@@ -3,10 +3,27 @@ body{
     background-color: #CCC ;
 }
 
+table{
+    text-align: center;
+}
+thead{
+    text-indent: 205px;
+    width: 200px;
+    height: 200px;
+    background-image: url("Images/Trace-somaire.jpg");
+    background-size: 100% ;
+    background-position: -10px -200px;
+}
+ a{
+    text-decoration: none;
+    color:white;
+ }
+
 img{
-    width: 500px;
+    width: 450px;
     height: 300px;
 }
+
 h1{
     text-align : center; /*titre au centre */
 }
@@ -25,7 +42,7 @@ h1{
 
 .div3{
     text-align : center; /*titre au centre */
-    text-decoration: underline; /*titre en sous-ligné */
+    text-decoration: none; /*titre en sous-ligné */
 }
 
 .div4{
@@ -43,9 +60,10 @@ h1{
 }
 
 .div6{
+    font-size: 17px;
     color: #FFF ;
     background-color: #808080;
-    height: 200px;
+    height: 250px;
     width: 1000px; /* largeur*/
     border: 5px solid black; /* taille, type, couleur bordure*/
     padding: 10px 15px 20px 40px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
