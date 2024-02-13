@@ -8,7 +8,7 @@
         </head>
         <body>
         <div class="div2">
-        <p> <h2> Mercedes </h2> </p>
+            <p> <h2> Mercedes </h2> </p>
         </div>
         <br>
         
@@ -65,6 +65,5 @@
             <br> <h4> Prix : 220 000 euros</h4></p>
             <br>
         </div>
-        <br><br><br><br>
         </body>
     </html>
