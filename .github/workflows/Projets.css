@@ -12,6 +12,7 @@ h1{
     text-align : center; /*titre au centre */
 }
 
+/* Pour le bandeau a tout dénut e la page*/
 .div1{
     background-color: rgb(00,125,150);
     height: 250px;
@@ -20,23 +21,24 @@ h1{
     text-transform: uppercase ; /*titre en majuscule */
     text-decoration: underline; /*titre en sous-ligné */
 }
-
 #p1{
  display: inline-block;
- text-indent: 50px;
+ text-indent: 50px;/* distance entre l'élément de le prochain*/
 }
 #p2{
  display: inline-block;
- text-indent: 75px;
+ text-indent: 75px;/* distance entre l'élément de le prochain*/
 }
 #p3{
  display: inline-block;
- text-indent: 75px;
+ text-indent: 75px;/* distance entre l'élément de le prochain*/
 }
 #p4{
  display: inline-block;
- text-indent: 75px;
+ text-indent: 75px; /* distance entre l'élément de le prochain*/
 }
+
+/*le texte de qui-sommes nous ?*/
 
 .div4{
     color: #FFF ;
@@ -48,6 +50,8 @@ h1{
     margin: auto; /* marge extérieur permet de centrer par rapport au parent */
 }
 
+/*Voiture du moment a retravailler*/
+
 #Voiture-moment{
   display: block;
   float : right;
@@ -56,6 +60,8 @@ h1{
   border: 4px solid black; 
 }
 
+
+/* Pour les contacts*/
 
 #contact{
     height: 200px;
@@ -89,7 +95,7 @@ h1{
 }
 
 
-
+/* Pur la prise de rdv*/
 
 .container {
     position: relative; /*permet de bouger l'image par rapport a là où elle était */
@@ -104,7 +110,6 @@ h1{
 }
 .form-group {
     margin-bottom: 20px;/* Espacement entre les groupes de formulaires */
-}
 }
 label {
     display: block; /* Affichage en bloc pour chaque étiquette */
@@ -132,22 +137,27 @@ button:hover {
 }
 
 
+/* Tous les noms de marques*/
 .div2{
     text-decoration: underline; /*titre en sous-ligné */
     text-indent: 100px; /* decale le texte vers la droite*/
     text-decoration: underline; /*titre en sous-ligné */
 }
 
+
+/* Tous les types de vehicules*/
 .div3{
     clear: right;
     text-align : center; /*titre au centre */
     text-decoration: none; /*titre en sous-ligné */
 }
 
+/* Nom des modèles*/
 .div5{
     text-indent: 200px; /* decale le texte vers la droite*/
 }
 
+/* textes descriptif desmodèles*/
 .div6{
     font-size: 17px;
     color: #FFF ;
