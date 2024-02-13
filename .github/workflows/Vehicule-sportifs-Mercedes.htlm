@@ -65,5 +65,24 @@
             <br> <h4> Prix : 220 000 euros</h4></p>
             <br>
         </div>
+            <br><br><br><br>
+
+            <div class="div5"> 
+            <p> <h3> 4.Mercedes Classe S 65 AMG </h3></p>
+        </div>
+        
+        <img src="Images\Mercedes\Mercedes_Classe_S65_AMG.png" alt="Mercedes Classe S 65 AMG">
+        <img src="Images\Mercedes\Mercedes_Classe_S65_AMG_2.png" alt="Mercedes Classe S 65 AMG ">
+        <img src="Images\Mercedes\Mercedes_Classe_S65_AMG_3.png" alt="Mercedes Classe S 65 AMG">
+        
+        <br><br><br><br>
+        <div class="div6">
+            <p>  Cette Mercedes classe S65 AMG est une belle illustration de la personalisation poussée dans le détail puisqu'elle a été revisitée par la maison japonaise Wald International.
+                Dans la catégorie des limousines de luxe musclées la S65 AMG s'impose comme une auto incontournable.
+                Un concept comme seul AMG sait le proposer où l'équipement high-tech côtoie la haute performance avec un côté bestial bien camouflé.
+                Sa mécanique est un colossal V12 suralimenté par 2 turbos pour une puissance allant jusqu'à 630 chevaux et s'exprimant dans une sonorité dénotant avec l'allure et le positionnement de l'auto.
+            <br> <h4> Prix : 150 000 euros</h4></p>
+            <br>
+        </div>
         </body>
     </html>
