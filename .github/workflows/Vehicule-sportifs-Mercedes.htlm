@@ -3,12 +3,13 @@
         <head>
             <title> Mercedes </title>
             <meta charset= 'utf-8'>
-            <link rel="stylesheet" href="Type-de-vehicule/Vehicule-ancien/Projets.css">
+            <link rel="stylesheet" href="Projets.css">
             <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         </head>
         <body>
+        <br><br><br>
         <div class="div2">
-            <p> <h2> Mercedes </h2> </p>
+            <p> <h1> Mercedes </h1> </p>
         </div>
         <br>
         
@@ -65,9 +66,9 @@
             <br> <h4> Prix : 220 000 euros</h4></p>
             <br>
         </div>
-            <br><br><br><br>
-
-            <div class="div5"> 
+        <br><br><br><br>
+        
+        <div class="div5"> 
             <p> <h3> 4.Mercedes Classe S 65 AMG </h3></p>
         </div>
         
@@ -84,6 +85,7 @@
             <br> <h4> Prix : 150 000 euros</h4></p>
             <br>
         </div>
- <br><br><br><br>
+        <br><br><br><br>
+        
         </body>
     </html>
