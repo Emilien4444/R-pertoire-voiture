@@ -1,0 +1,235 @@
+body{
+    font-family :'Open Sans', sans-serif ;
+    background-color: #CCC ;
+}
+
+
+h1{
+    text-align : center; /*titre au centre */
+}
+
+/* Pour le bandeau a tout dénut e la page*/
+.div1{
+    background-color: rgb(00,125,150);
+    height: 250px;
+    width: 1500px;
+    text-align : center; /*titre au centre */
+    text-transform: uppercase ; /*titre en majuscule */
+    text-decoration: underline; /*titre en sous-ligné */
+}
+#p1{
+ display: inline-block;
+ text-indent: 50px;/* distance entre l'élément de le prochain*/
+}
+#p2{
+ display: inline-block;
+ text-indent: 75px;/* distance entre l'élément de le prochain*/
+}
+#p3{
+ display: inline-block;
+ text-indent: 75px;/* distance entre l'élément de le prochain*/
+}
+#p4{
+ display: inline-block;
+ text-indent: 75px; /* distance entre l'élément de le prochain*/
+}
+
+
+/* Pour le défilement des images*/
+.slideshow-container {
+  overflow: hidden;
+}
+.slideshow {
+  display: flex;
+  animation: slideshow 30s linear infinite; /* Défilement automatique lent et infini */
+}
+.slideshow img {
+  width: 100%; /* Pour s'assurer que les images s'adaptent à la largeur du conteneur */
+}
+@keyframes slideshow {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-100% * 3)); } /* Répéter le défilement des images (3 fois la largeur du conteneur) */
+}
+
+
+/* Citation de ENZO Ferrari*/
+.citation-text{
+  font-family: cursive, sans-serif; /* Police */
+  font-size: 24px; /* Taille */
+  font-style: italic; /* Style italic */
+  color: #333; /* Couleur du texte */
+  text-align: center; /* Alignement du texte */
+  padding: 20px; /* Espacement intérieur */
+}
+.auteur{
+    font-family: Arial, sans-serif; /* Police */
+  font-size: 18px; /* Taille */
+  font-style: italic; /* Style italic */
+  position: relative;
+  left:1200px;
+}
+
+/*
+.search-container {
+  text-align: center;
+  margin-top: 50px;
+}
+input[type="text"] {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+*/
+
+.nouveautes {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  position: relative;
+  bottom: 200px;
+  text-align: center;
+}
+.nouveautes h2 {
+  margin-bottom: 20px;
+}
+.voitures {
+  display: flex;
+  justify-content: space-between;
+}
+.voiture {
+  width: 450px; /* Taille spécifique des images de voiture */
+  height: 300px;
+  cursor: pointer; /* Curseur pour indiquer que l'image est cliquable */
+}
+.voiture-link {
+  text-decoration: none; /* Supprimer la décoration de lien par défaut */
+  color: inherit; /* Hériter de la couleur du texte parent */
+}
+
+
+img{
+    width: 450px;
+    height: 300px;
+}
+
+
+/*le texte de qui-sommes nous ?*/
+.div4{
+    color: #FFF ;
+    background-color: #808080;
+    height: 530px;
+    width: 1000px; /* largeur*/
+    border: 15px ridge black; /* taille, type, couleur bordure*/
+    padding: 20px 50px 20px 40px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
+    margin: auto; /* marge extérieur permet de centrer par rapport au parent */
+}
+
+/*Voiture du moment a retravailler*/
+
+#Voiture-moment{
+  display: block;
+  float : right;
+  height: 420px;
+  width: 450px;
+  border: 4px solid black; 
+}
+
+
+/* Pour les contacts*/
+
+#contact{
+    height: 200px;
+    width: 400px; /* largeur*/
+    border: 5px solid black; /* taille, type, couleur bordure*/
+    padding: 20px 20px 0px 20px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
+}
+#in, #tw, #fb, #lk{
+    width: 75px;
+    height: 75px;
+    display: block;  /* Affichage en bloc pour chaque étiquette */
+    position: absolute; 
+}
+#fb{
+
+    background-image: url("Images/Reseaux.png");
+    background-position: -65px -62px; /* déplacement dans l'image globale*/
+}
+#in{
+    background-image: url("Images/Reseaux.png");
+    background-position: -205px -62px; /* déplacement dans l'image globale*/
+    left: 150px; /* décale le logo pour pas de chevauchement*/
+}
+#tw{
+    background: url("Images/Reseaux.png") 100px -62px ;
+    left: 250px;
+}
+#lk{
+    background: url("Images/Reseaux.png") 250px -62px ;
+    left: 350px;
+}
+
+
+/* Pur la prise de rdv*/
+
+.container {
+    position: relative; /*permet de bouger l'image par rapport a là où elle était */
+    top: -365px;
+    left: 450px;
+    width: 425px;
+    height: 300px;
+    margin: 50px ;
+    padding: 20px;
+    border: 4px solid black;
+    border-radius: 5px; /* Coins arrondis avec un rayon de 5 pixels */
+}
+.form-group {
+    margin-bottom: 20px;/* Espacement entre les groupes de formulaires */
+}
+label {
+    display: block; /* Affichage en bloc pour chaque étiquette */
+    font-weight: bold;/* Texte en gras pour les étiquettes */
+}
+input[type="date"],
+input[type="time"] {
+    width: 100%; /* Largeur de 100% pour occuper tout l'espace disponible */
+    padding: 10px; /* Espacement interne des champs de formulaire */
+    font-size: 16px; /* Taille de la police de 16 pixels */
+    border: 1px solid #ccc; /* Bordure de 1 pixel solide avec couleur grise claire */
+    border-radius: 5px; /* Coins arrondis avec un rayon de 5 pixels */
+}
+button {
+    background-color: #007bff; /* Couleur de fond bleue */
+    color: #fff; /* Couleur du texte en blanc */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    border: none; /* Suppression de la bordure */
+    border-radius: 5px; /* Coins arrondis avec un rayon de 5 pixels */
+    cursor: pointer; /* Curseur en pointeur au survol */
+    font-size: 16px; /* Taille de la police de 16 pixels */
+}
+button:hover {
+    background-color: #0056b3; /* Changement de couleur de fond au survol */
+}
+
+
+/* Pour le bandeau de fin*/
+.div2{
+    background-color: rgb(00,125,150);
+    height: 350px;
+    width: 1500px;
+    text-align : center; /*titre au centre */
+    color: #fff;
+}
