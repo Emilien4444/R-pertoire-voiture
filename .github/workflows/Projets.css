@@ -72,3 +72,15 @@ h1{
     padding: 10px 15px 20px 40px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
     margin: auto; /* marge extérieur permet de centrer par rapport au parent */
 }
+
+/* textes descriptif des modèlesa avec une grande histoires*/
+.div7{
+    font-size: 17px;
+    color: #FFF ;
+    background-color: #808080;
+    height: 400px;
+    width: 1000px; /* largeur*/
+    border: 5px solid black; /* taille, type, couleur bordure*/
+    padding: 10px 15px 20px 40px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
+    margin: auto; /* marge extérieur permet de centrer par rapport au parent */
+}
