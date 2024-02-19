@@ -86,6 +86,26 @@
             <br>
         </div>
         <br><br><br><br>
+
+            <div class="div5"> 
+            <p> <h3> 5.MERCEDES SLR MCLAREN </h3></p>
+        </div>
+        
+        <img src="Images\Mercedes\Mercedes_SLR.png" alt="Mercedes SLR">
+        <img src="Images\Mercedes\Mercedes_SLR_2.png" alt="Mercedes SLR">
+        <img src="Images\Mercedes\Mercedes_SLR_3.png" alt="Mercedes SLR">
+        
+        <br><br><br><br>
+        <div class="div6">
+            <p> Fruit d’une étroite collaboration entre McLaren et Mercedes-Benz, la SLR est présentée dans sa version finale au Salon de Francfort en 2003.
+2157 exemplaires seront produits, toutes versions confondues. La SLR vient alors concurrencer la Ferrari Enzo et la Porsche Carrera GT avec une ligne futuriste, notamment avec ce capot des plus impressionnants, et un bruit de compresseur inimitable.
+Cette Mercedes rend hommage aux célèbres Flèches d’Argent et surtout à la 300 SLR à laquelle elle emprunte le nom.<br> Sous le capot, on retrouve un V8 Mercedes-AMG qui délivre 626 chevaux et pas moins de 780 nm de couple ! 
+Un aileron actif équipe l’auto pour assurer un aérodynamisme efficace à très haute vitesse. Sa suspension est issue du sport automobile, on retrouve également des disques carbone-céramique. Le 0 à 100 km/h est annoncé en 3,8 secondes pour une vitesse maximale de 334 km/h.
+Le châssis de la SLR, une monocoque en carbone, est assemblé à Woking dans les usines de McLaren.
+            <br> <h4> Prix : 400 000 euros</h4></p>
+            <br>
+        </div>
+        <br><br><br><br>
         
         </body>
     </html>
