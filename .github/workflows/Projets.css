@@ -15,7 +15,7 @@ h1{
 /* Pour le bandeau a tout dénut e la page*/
 .div1{
     background-color: rgb(00,125,150);
-    height: 300px;
+    height: 240px;
     width: 1500px;
     text-align : center; /*titre au centre */
     text-transform: uppercase ; /*titre en majuscule */
@@ -38,6 +38,18 @@ h1{
  text-indent: 75px; /* distance entre l'élément de le prochain*/
 }
 
+
+.select-wrapper {
+  margin-bottom: 20px;
+}
+.car {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.car:hover {
+  background-color: #f2f2f2;
+}
 
 
 
@@ -83,4 +95,14 @@ h1{
     border: 5px solid black; /* taille, type, couleur bordure*/
     padding: 10px 15px 20px 40px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
     margin: auto; /* marge extérieur permet de centrer par rapport au parent */
+}
+
+
+/* Pour le bandeau de fin*/
+.div8{
+    background-color: rgb(00,125,150);
+    height: 350px;
+    width: 1500px;
+    text-align : center; /*titre au centre */
+    color: #fff;
 }
