@@ -7,12 +7,13 @@
             <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         </head>
         <body>
-        <br><br><br>
-        <div class="div2">
-            <p> <h1> Mercedes </h1> </p>
+        <div class="div1"
+           <br>
+           <h1> Véhicules d'éxeptions </h1><br>
+            <p> <h2> Mercedes-Benz </h2></p>
         </div>
-        <br>
         
+        <br><br><br>
         <div class="div5"> 
             <p> <h3> 1.Mercedes-AMG Project ONE  </h3></p>
         </div>
@@ -97,5 +98,18 @@
         </div>
         <br><br><br>
         
+        
+         <div class = "div8">
+            <br><br>
+            <p><h2> Véhicules d'éxeptions </h2></p>
+            <br>
+            <div class="fin">
+                <p> <strong> Showroom accessible uniquement sur RDV dans Paris </strong> </p>
+                <p> Du Lundi au Samedi de 8h à 20h <br> + 33 07 83 77 75 99 </p>
+                <br>
+                <p> © Copyright 2024 - Véhicules d'éxception </p>
+            </div>
+        </div>
+        <br><br>
         </body>
     </html>
