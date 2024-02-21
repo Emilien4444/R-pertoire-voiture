@@ -15,7 +15,7 @@ h1{
 /* Pour le bandeau a tout dénut e la page*/
 .div1{
     background-color: rgb(00,125,150);
-    height: 240px;
+    height: 300px;
     width: 100%;
     text-align : center; /*titre au centre */
     text-transform: uppercase ; /*titre en majuscule */
@@ -36,6 +36,10 @@ h1{
 #p4{
  display: inline-block;
  text-indent: 75px; /* distance entre l'élément de le prochain*/
+}
+#p5{
+ display: inline-block;
+ text-indent: 75px;
 }
 
 
