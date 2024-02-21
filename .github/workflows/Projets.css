@@ -16,7 +16,7 @@ h1{
 .div1{
     background-color: rgb(00,125,150);
     height: 240px;
-    width: 1500px;
+    width: 100%;
     text-align : center; /*titre au centre */
     text-transform: uppercase ; /*titre en majuscule */
     text-decoration: underline; /*titre en sous-ligné */
@@ -78,20 +78,20 @@ h1{
     font-size: 17px;
     color: #FFF ;
     background-color: #808080;
-    height: 250px;
-    width: 1000px; /* largeur*/
+    height: 50%;
+    width: 70%; /* largeur*/
     border: 5px solid black; /* taille, type, couleur bordure*/
     padding: 10px 15px 20px 40px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
     margin: auto; /* marge extérieur permet de centrer par rapport au parent */
 }
 
-/* textes descriptif des modèlesa avec une grande histoires*/
+/* textes descriptif des modèle avec une grande histoires*/
 .div7{
     font-size: 17px;
     color: #FFF ;
     background-color: #808080;
-    height: 400px;
-    width: 1000px; /* largeur*/
+    height: 50%;
+    width: 70%; /* largeur*/
     border: 5px solid black; /* taille, type, couleur bordure*/
     padding: 10px 15px 20px 40px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
     margin: auto; /* marge extérieur permet de centrer par rapport au parent */
@@ -102,7 +102,7 @@ h1{
 .div8{
     background-color: rgb(00,125,150);
     height: 350px;
-    width: 1500px;
+    width: 100%;
     text-align : center; /*titre au centre */
     color: #fff;
 }
