@@ -4,11 +4,19 @@ body{
 }
 
 img{
-    width: 400px;
-    height: 300px;
+    width: 30%;
+    height: 30%;
 }
-p{
-    text-align: indent;
+
+/* Pour le bandeau a tout début de la page*/
+.div1 {
+    background-color: rgb(000,000,100);
+    color: #FFF;
+    height: 200px;
+    width: 100%;
+    text-align : center; /*titre au centre */
+    text-transform: uppercase ; /*titre en majuscule */
+    text-decoration: underline; /*titre en sous-ligné */
 }
 
 .div5{
@@ -21,9 +29,18 @@ p{
     font-size: 17px;
     color: #FFF ;
     background-color: #808080;
-    height: 600px;
-    width: 1000px; /* largeur*/
+    height: 80%;
+    width: 80%; /* largeur*/
     border: 5px solid black; /* taille, type, couleur bordure*/
     padding: 10px 15px 20px 40px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
     margin: auto; /* marge extérieur permet de centrer par rapport au parent */
+}
+
+/* Pour le bandeau de fin*/
+.div8{
+    background-color: rgb(000,000,100);
+    height: 350px;
+    width: 100%;
+    text-align : center; /*titre au centre */
+    color: #fff;
 }
