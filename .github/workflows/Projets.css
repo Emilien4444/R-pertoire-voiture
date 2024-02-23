@@ -1,3 +1,6 @@
+
+
+
 body{
     font-family :'Open Sans', sans-serif ;
     background-color: #CCC ;
@@ -25,7 +28,7 @@ h1{
     text-transform: uppercase ; /*titre en majuscule */
     text-decoration: underline; /*titre en sous-ligné */
 }
-#p1, #p2, #p3, #p4,#p5{
+#p1, #p2, #p3,#p4,#p5,#p6{
  display: inline-block;
  text-indent: 50px;/* distance entre l'élément de le prochain*/
 }
@@ -40,7 +43,7 @@ h1{
     text-transform: uppercase ; /*titre en majuscule */
     text-decoration: underline; /*titre en sous-ligné */
 }
-#p1, #p2, #p3, #p4,#p5{
+#p1, #p2, #p3, #p4,#p5,#p6{
  display: inline-block;
  text-indent: 50px;/* distance entre l'élément de le prochain*/
 }
