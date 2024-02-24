@@ -213,6 +213,7 @@ img{
     border: 15px ridge black; /* taille, type, couleur bordure*/
     padding: 20px 50px 20px 40px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
     margin: auto; /* marge extérieur permet de centrer par rapport au parent */
+    font-size: 15px;
 }
 
 
