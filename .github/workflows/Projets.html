@@ -10,7 +10,7 @@
         <body>
             
         <header>
-            <p><h1> Véhicules d'exceptions </h1></p>
+            <p><h1> Véhicules d'éxceptions </h1></p>
         </header>
         <nav>
         <ul>
@@ -20,7 +20,7 @@
             <li><a href="Vehicule-atypique.html" target="_blank">Véhicules atypiques</a></li>
         </ul>
         </nav>
-        <br><br><br>        
+        <br><br><br>
         
         <div class="slideshow-container">
             <div class="slideshow">
@@ -88,7 +88,7 @@
             </div>
             <div class="block">
               <h2>Voiture du moment</h2>
-              <img src="Images\Ferrari\Ferrari-250-gto.png" alt="Ferrari 250 GTO 1962">
+              <img src="Images\Ferrari\Ferrari-250-gto.png" alt="Ferrari 250 GTO 1962" class="voiture-moment">
               <h3>Ferrari 250 GTO 1962 </h3>
             </div>
         </div>  
@@ -134,6 +134,27 @@
         <br><br><br>
         
         
+       <div class="password">
+        <form class="account-form" action="create_account.php" method="post">
+            <h2>Créer un compte</h2>
+            <div class="form-group">
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Créer le compte</button>
+            </div>
+            <p>Déjà un compte ? <a href="login.html">Se connecter</a></p>
+        </form>
+    </div>
+
+
+
+
         <footer>
             <h2>Véhicules d'exceptions</h2>
             <div class="fin">
