@@ -60,6 +60,33 @@ nav ul li a:hover {
 }
 
 
+/* Pour la fonction de recherche*/
+.search-container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .search-container input[type="text"], 
+    .search-container select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .search-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
 /* Tous les noms de marques*/
 .div2{
     text-decoration: underline; /*titre en sous-ligné */
