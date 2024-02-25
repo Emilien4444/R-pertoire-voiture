@@ -30,6 +30,7 @@
             de course de Mercedes-AMG Petronas Formula One Team. Dotée d'un moteur V6 turbo hybride et de quatre moteurs électriques, la Project ONE offre des performances
             impressionnantes sur route et une expérience de conduite incomparable. Avec une production limitée à seulement 275 exemplaires, la Project ONE représente le summum du
             savoir-faire technologique de Mercedes-AMG. <br> <h4> Prix : 2.275 Million d'euros</h4></p>
+            <button class="favorite-btn">Ajouter aux favoris</button>
             <br>
         </div>
         <br><br><br>
@@ -45,7 +46,8 @@
             <p>  La Mercedes-AMG GT est une voiture de sport développée par Mercedes-AMG, la branche hautes performances de Mercedes-Benz. Elle a été introduite en 2014 en
             remplacement de la SLS AMG. La GT est proposée dans différentes variantes, allant de la GT de base à la puissante GT R et à la GT Black Series. Ces modèles
             incarnent l'expertise de Mercedes-AMG en matière de performances et de design, offrant une expérience de conduite exaltante associée au confort et au luxe
-            caractéristiques de Mercedes-Benz. <br> <h4> Prix : 160 000 euros</h4></p>
+            caractéristiques de Mercedes-Benz. <br> <h4> Prix : 160 000 euros</h4><br></p>
+            <button class="favorite-btn">Ajouter aux favoris</button>
             <br>
         </div>
         <br><br><br>
@@ -62,6 +64,7 @@
             à quatre portes. Elle a été présentée pour la première fois en 2018 au Salon de l'Automobile de Genève. Disponible dans une variété de configurations, y compris des versions
             à quatre roues motrices et des modèles équipés du système de propulsion hybride EQ Boost, la GT 4-Door Coupe offre une combinaison unique de performances et de praticité.
             <br> <h4> Prix : 220 000 euros</h4></p>
+            <button class="favorite-btn">Ajouter aux favoris</button>
             <br>
         </div>
         <br><br><br>
@@ -79,6 +82,7 @@
                 Un concept comme seul AMG sait le proposer où l'équipement high-tech côtoie la haute performance avec un côté bestial bien camouflé.
                 Sa mécanique est un colossal V12 suralimenté par 2 turbos pour une puissance allant jusqu'à 630 chevaux et s'exprimant dans une sonorité dénotant avec l'allure et le positionnement de l'auto.
             <br> <h4> Prix : 150 000 euros</h4></p>
+            <button class="favorite-btn">Ajouter aux favoris</button>
             <br>
         </div>
         <br><br><br>
@@ -97,6 +101,7 @@
             Un aileron actif équipe l’auto pour assurer un aérodynamisme efficace à très haute vitesse. Sa suspension est issue du sport automobile, on retrouve également des disques carbone-céramique. Le 0 à 100 km/h est annoncé
             en 3,8 secondes pour une vitesse maximale de 334 km/h. Le châssis de la SLR, une monocoque en carbone, est assemblé à Woking dans les usines de McLaren. <br><br>
             <br> <h4> Prix : 400 000 euros</h4></p>
+            <button class="favorite-btn">Ajouter aux favoris</button>
             <br>
         </div>
         <br><br><br>
