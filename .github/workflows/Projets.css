@@ -1,14 +1,9 @@
-
-
-
 body{
     font-family :'Open Sans', sans-serif ;
     background-color: #CCC ;
-}
-
-/*lien en blanc*/
-a{
- color:#fff;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
 }
 img{
     width: 450px;
@@ -16,52 +11,53 @@ img{
 }
 h1{
     text-align : center; /*titre au centre */
+    font-size: 25px;
+    font-weight: normal;
 }
 
-/* Pour le bandeau a tout début de la page*/
-.div1{
-    background-color: rgb(000,000,100);
-    color: #FFF;
-    height: 300px;
-    width: 100%;
+/* Pour le nom de la marque*/
+#header {
+    height: 100px;
     text-align : center; /*titre au centre */
     text-transform: uppercase ; /*titre en majuscule */
-    text-decoration: underline; /*titre en sous-ligné */
-}
-#p1, #p2, #p3,#p4,#p5,#p6{
- display: inline-block;
- text-indent: 50px;/* distance entre l'élément de le prochain*/
+    text-decoration: underline; /*titre sous-ligné */
 }
 
-/* Pour le bandeau au de la page pour les pages de véhicules*/
+/* Pour le menu de navigation*/
+nav {
+    background-color: rgb(000, 000, 100);
+    width: 100%;
+    text-align : center; /*titre au centre */
+        font-size: 15px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Pour le bandeau haut de la page pour les pages de véhicules*/
 .div9{
     background-color: rgb(000,000,100);
     color: #FFF;
-    height: 200px;
+    padding: 20px;
+    height: 50px;
     width: 100%;
     text-align : center; /*titre au centre */
-    text-transform: uppercase ; /*titre en majuscule */
     text-decoration: underline; /*titre en sous-ligné */
 }
-#p1, #p2, #p3, #p4,#p5,#p6{
- display: inline-block;
- text-indent: 50px;/* distance entre l'élément de le prochain*/
-}
-
-
-
-.select-wrapper {
-  margin-bottom: 20px;
-}
-.car {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 5px;
-}
-.car:hover {
-  background-color: #f2f2f2;
-}
-
 
 
 /* Tous les noms de marques*/
@@ -82,6 +78,7 @@ h1{
 /* Nom des modèles*/
 .div5{
     text-indent: 200px; /* decale le texte vers la droite*/
+    font-size: 15px;
 }
 
 /* textes descriptif desmodèles*/
@@ -110,10 +107,51 @@ h1{
 
 
 /* Pour le bandeau de fin*/
-.div8{
+footer {
     background-color: rgb(000,000,100);
-    height: 350px;
-    width: 100%;
-    text-align : center; /*titre au centre */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+footer h2 {
+    margin-bottom: 10px;
+}
+.fin p {
+    margin: 5px 0;
+}
+.fin strong {
+    color: #FFD700; /* couleur or */
+}
+
+
+/* design du bouton pour ajouter aux favoris ( pas encore fonctionnel car il faut java)*/
+.favorite-btn {
+    background-color: #337ab7;
     color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.favorite-btn:hover {
+    background-color: #23527c;
+}
+
+
+/* Media query pour les écrans de petite taille, comme les téléphones */
+@media only screen and (max-width: 600px) {
+    /* Ajoutez ici vos styles spécifiques pour les téléphones */
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px;
+    }
 }
