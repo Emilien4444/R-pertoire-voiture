@@ -88,6 +88,8 @@ nav ul li a:hover {
 
 /* prise de rdv*/
 .container {
+   max-width: 1400px; /* ou toute autre valeur appropriée */
+    margin: 0 auto; /* centre le contenu */
   display: flex;
   justify-content: space-between;
 }
@@ -169,11 +171,19 @@ ul li {
     left: 30%;
 }
 
+/*Voiture du moment*/
+.voiture-moment {
+  text-decoration: none; /* Supprimer la décoration de lien par défaut */
+  color: inherit; /* Hériter de la couleur du texte parent */
+  width: 100%;
+
+}
+
 
 .nouveautes {
   background-color: #f0f0f0;
   width: 100%;
-  padding: 60px;
+  padding: 20px;
   border: 2px solid #ccc;
   border-radius: 10px;
   position: relative;
@@ -215,6 +225,45 @@ img{
     margin: auto; /* marge extérieur permet de centrer par rapport au parent */
     font-size: 15px;
 }
+
+
+.password {
+    width: 500px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.account-form {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.form-group button:hover {
+    background-color: #555;
+}
+
 
 
 
