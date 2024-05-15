@@ -1,0 +1,348 @@
+body{
+    font-family :'Open Sans', sans-serif ;
+    background-color: #CCC ;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+}
+
+a{
+ color:#fff;
+}
+
+h1{
+    text-align : center; /*titre au centre */
+    font-size: 40px;
+    font-weight: normal;
+}
+
+
+/* Pour le nom de la marque*/
+header {
+    height: 100px;
+    text-align : center; /*titre au centre */
+    text-transform: uppercase ; /*titre en majuscule */
+}
+
+
+/* Pour le menu de navigation*/
+nav {
+    background-color: rgb(000, 000, 100);
+    width: 100%;
+    text-align : center; /*titre au centre */
+    font-size: 15px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+
+/* Pour le défilement des images*/
+.slideshow-container {
+  overflow: hidden;
+}
+.slideshow {
+  display: flex;
+  animation: slideshow 30s linear infinite; /* Défilement automatique lent et infini */
+}
+.slideshow img {
+  width: 100%; /* Pour s'assurer que les images s'adaptent à la largeur du conteneur */
+}
+
+/* "@keyframes slideshow": règle CSS qui définit une animation nommée slideshow à l'aide des keyframes. Les keyframes définissent les étapes de l'animation à différents pourcentages de progression de l'animation.*/
+@keyframes slideshow {
+  0% { transform: translateX(0); } /*0% de progression de l'animation, translation horizontale (translateX) de 0, signifie qu'aucun déplacement horizontal n'est appliqué au début de l'animation.*/
+  100% { transform: translateX(calc(-100% * 3)); } /* 100% de progression de l'animation, Répéter le défilement des images (3 fois la largeur du conteneur) */
+}
+
+
+#VoitureLegendaire {
+    background-color: #007bff; 
+    color: white; 
+    padding: 5px 10px; 
+    border: none; /* Supprimer la bordure */
+    border-radius: 5px; /* Bordures arrondies */
+    cursor: pointer; 
+    position: absolute; /* Position absolue */
+    left : 2200px; 
+    font-size: 14px; /* Taille de la police */
+    width: 120px; /* Largeur fixe du bouton */
+}
+
+
+
+/* Citation de ENZO Ferrari*/
+.citation-text{
+  font-family: cursive, sans-serif; /* Police */
+  font-size: 24px; /* Taille */
+  font-style: italic; /* Style italic */
+  color: #333; /* Couleur du texte */
+  text-align: center; /* Alignement du texte */
+  padding: 20px; /* Espacement intérieur */
+}
+.auteur{
+  font-family: Arial, sans-serif; /* Police */
+  font-size: 18px; /* Taille */
+  font-style: italic; /* Style italic */
+  position: relative;
+  left:1200px;
+}
+
+
+/* Les ICONES */
+.container {
+ max-width: 550px;
+ margin: 0 auto;
+ padding: 20px;
+}
+/* Style pour les icônes de réseaux sociaux */
+.social-icons {
+   border: solid 3px black ;
+   position: relative;
+   right : 350px;
+   top: 150px ;
+   text-align: center;
+}
+.social-icons a {
+    display: inline-block;
+    margin-right: 50px;
+}
+.social-icons img {
+    width: 50px; /* Modifiez la largeur ici */
+    height: 50px; /* Modifiez la hauteur ici */
+}
+
+
+/*Voiture du moment*/
+.block{
+    border: solid 3px black ;
+    position: relative;
+    left : 300px;
+    bottom : 125px ;
+}
+.voiture-moment {
+  text-decoration: none; /* Supprimer la décoration de lien par défaut */
+  color: inherit; /* Hériter de la couleur du texte parent */
+  width: 100%;
+}
+
+
+.nouveautes {
+  background-color: #f0f0f0;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+.nouveautes h2 {
+  margin-bottom: 20px;
+}
+.voitures {
+  display: flex;
+  justify-content: space-between;
+}
+.voiture {
+  width: 100%; /* Taille spécifique des images de voiture */
+  height: 300px;
+  cursor: pointer; /* Curseur pour indiquer que l'image est cliquable */
+}
+.voiture-link {
+  text-decoration: none; /* Supprimer la décoration de lien par défaut */
+  color: inherit; /* Hériter de la couleur du texte parent */
+}
+
+
+img{
+    width: 450px;
+    height: 300px;
+}
+
+
+/*le texte de qui-sommes nous ?*/
+.div4{
+    color: #FFF ;
+    background-color: #808080;
+    height: 60%;
+    width: 70%; /* largeur*/
+    border: 15px ridge black; /* taille, type, couleur bordure*/
+    padding: 20px 50px 20px 40px ; /* marge interrieur ( eloigne le contenu des borders) haut, droite, bas, gauche */
+    margin: auto; /* marge extérieur permet de centrer par rapport au parent */
+    font-size: 15px;
+}
+
+
+
+
+
+/* style pour la creation de compte*/
+/* Conteneur principal */
+.compte-essaie {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+/* Styles pour les formulaires */
+.creation-compte, .connexion, .demande-essai, .mot-de-passe-oublie {
+  width: 30%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les titres */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styles pour les champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+button,
+input[type="date"],
+input[type="time"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Styles pour les boutons */
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles pour les messages */
+p.message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+
+/* Pour le bandeau de fin*/
+footer {
+    background-color: rgb(000,000,100);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+footer h2 {
+    margin-bottom: 10px;
+}
+.fin p {
+    margin: 5px 0;
+}
+.fin strong {
+    color: #FFD700; /* couleur or */
+}
+
+
+
+
+
+/* Media query pour les écrans de petite taille */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px; /* Ajustement de la taille de la police */
+    }
+
+    header {
+        height: auto; /* Ajustement de la hauteur de l'en-tête */
+    }
+
+    nav {
+        font-size: 14px; /* Ajustement de la taille de la police du menu de navigation */
+    }
+
+    .slideshow img {
+        width: 100%; /* Ajustement de la largeur des images pour les téléphones */
+        height: auto; /* Ajustement de la hauteur des images pour les téléphones */
+    }
+
+    #VoitureLegendaire {
+        left: 500px; /* Supprimer la position absolue à gauche pour le bouton */
+        width: 100%; /* Ajustement de la largeur du bouton pour les téléphones */
+        margin-top: 20px; /* Ajouter une marge en haut du bouton */
+		width: 120px; /* Largeur fixe du bouton */
+    }
+
+    .citation-text {
+        font-size: 18px; /* Ajustement de la taille de la police pour la citation */
+    }
+
+    .auteur {
+        left: auto; /* Supprimer la position absolue à gauche pour l'auteur */
+        text-align: center; /* Centrer l'auteur */
+    }
+
+    .social-icons {
+        right: auto; /* Supprimer la position absolue à droite pour les icônes de réseaux sociaux */
+        text-align: center; /* Centrer les icônes de réseaux sociaux */
+    }
+
+    .block {
+        left: auto; /* Supprimer la position absolue à gauche pour le bloc "Voiture du moment" */
+        width: 100%; /* Ajustement de la largeur du bloc pour les téléphones */
+        margin-bottom: 20px; /* Ajouter une marge en bas du bloc */
+    }
+
+    .voiture {
+        width: 100%; /* Ajustement de la largeur des images de voiture pour les téléphones */
+        height: auto; /* Ajustement de la hauteur des images de voiture pour les téléphones */
+    }
+
+    .div4 {
+        width: 90%; /* Ajustement de la largeur du texte "Qui sommes nous ?" pour les téléphones */
+        padding: 20px; /* Ajustement de la marge intérieure pour le texte "Qui sommes nous ?" */
+    }
+
+    .compte-essaie {
+        flex-direction: column; /* Afficher les formulaires en colonne pour les téléphones */
+    }
+
+    .creation-compte,
+    .connexion,
+    .demande-essai {
+        width: 100%; /* Ajustement de la largeur des formulaires pour les téléphones */
+        margin-bottom: 20px; /* Ajouter une marge en bas des formulaires */
+    }
+}
+
+        padding: 10px;
+    }
+}

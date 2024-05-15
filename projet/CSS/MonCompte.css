@@ -1,0 +1,138 @@
+body{
+    font-family :'Open Sans', sans-serif ;
+    background-color: #CCC ;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+}
+
+
+
+
+/* Pour le menu de navigation*/
+nav {
+    background-color: rgb(000, 000, 100);
+    width: 100%;
+    text-align : center; /*titre au centre */
+    font-size: 15px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+h1{
+    text-align : center; /*titre au centre */
+    font-size: 30px;
+    font-weight: normal;
+}
+
+header {
+    height: 70px;
+    text-align : center; /*titre au centre */
+    text-transform: uppercase ; /*titre en majuscule */
+}
+    
+}
+titre {
+    background-color: rgb(000, 000, 100);
+    color : #FFF ;
+    text-align : center ;
+    width: 100%;
+}
+
+/* Pour le profils de l'utilisateurs*/
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+section p {
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Pour l'ajout de vehicule*/
+/* Styles pour la mise en forme du formulaire */
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+/* Pour le bandeau de fin*/
+footer {
+    background-color: rgb(000,000,100);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+footer h2 {
+    margin-bottom: 10px;
+}
+.fin p {
+    margin: 5px 0;
+}
+.fin strong {
+    color: #FFD700; /* couleur or */
+}
+

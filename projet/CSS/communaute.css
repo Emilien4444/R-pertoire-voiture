@@ -1,0 +1,170 @@
+body{
+    font-family :'Open Sans', sans-serif ;
+    background-color: #CCC ;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+}
+
+
+/* Pour le menu de navigation*/
+nav {
+    background-color: rgb(000, 000, 100);
+    width: 100%;
+    text-align : center; /*titre au centre */
+    font-size: 15px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+h1{
+    text-align : center; /*titre au centre */
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+header {
+    height: 70px;
+    text-align : center; /*titre au centre */
+    text-transform: uppercase ; /*titre en majuscule */
+}
+
+
+/* Pour styliser les boutons de tri*/
+.sort-buttons-container {
+    display: flex;
+    justify-content: center; /* Pour aligner les boutons au centre */
+    margin-bottom: 20px; /* Ajouter de l'espace en bas */
+}
+
+.sort-button {
+    padding: 10px 20px;
+    margin-right: 10px; /* Espacement entre les boutons */
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.sort-button:last-child {
+    margin-right: 0; /* Retirer la marge à droite du dernier bouton */
+}
+
+
+
+/* Pour styliser la présentation des voitures*/
+.vehicule-container {
+    max-width: 1500px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.vehicule {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.vehicule h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.vehicule p {
+    margin: 5px 0;
+}
+
+.vehicule img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Pour les boutons "valider" refuser" de la page "admin.php" ainsi que "supprimer" de la page favoris */
+.action-buttons-container {
+   display: flex;
+   max-width: 300px; /* Définir la largeur maximale */
+   margin: 0 auto; /* Centrer horizontalement */
+}
+
+
+/* Pour le bandeau de fin*/
+footer {
+    background-color: rgb(000,000,100);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+footer h2 {
+    margin-bottom: 10px;
+}
+.fin p {
+    margin: 5px 0;
+}
+.fin strong {
+    color: #FFD700; /* couleur or */
+}
+
