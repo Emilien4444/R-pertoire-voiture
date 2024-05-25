@@ -39,7 +39,7 @@ if (isset($_POST['marque'], $_POST['type'], $_POST['modele'], $_POST['annee'], $
         $targetDir = "uploads/";
 
         // Déplacer les fichiers téléchargés vers le dossier cible
-	  	$photo1 = basename($_FILES["photo1"]["name"]); //récupère le nom du fichier téléchargé, "basename()" est utilisée pour extraire le nom de fichier
+	$photo1 = basename($_FILES["photo1"]["name"]); //récupère le nom du fichier téléchargé, "basename()" est utilisée pour extraire le nom de fichier
         $photo2 = basename($_FILES["photo2"]["name"]);
         $photo3 = basename($_FILES["photo3"]["name"]);
 
