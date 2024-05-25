@@ -107,9 +107,9 @@
 				echo "<div class='action-buttons-container'>";
 					echo "<form action='ajouter_aux_favoris.php' method='post'>"; // appelle la page ajouter_aux_favori.php qui va gérer l'ajout ds la base de donnée 
 						echo "<input type='hidden' name='id_utilisateur' value='" . $id_utilisateur . "'>"; // transmet l'identifiant de l'utilisateur au serveur lorsqu'une action est effectuée de manière caché pour l'utilisateur sur la page
-                		echo "<input type='hidden' name='id_voiture' value='" . $row["id"] . "'>";
-                		echo "<button type='submit' name='ajouter_aux_favoris'>Ajouter au Favoris</button>";
-                	echo "</form>";
+                				echo "<input type='hidden' name='id_voiture' value='" . $row["id"] . "'>";
+                				echo "<button type='submit' name='ajouter_aux_favoris'>Ajouter au Favoris</button>";
+                			echo "</form>";
 				echo "</div>";
               } else { 
                 echo "<p><em>Ce véhicule est déjà dans vos favoris.</em></p>";
