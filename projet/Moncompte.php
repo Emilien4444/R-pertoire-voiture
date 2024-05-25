@@ -27,7 +27,7 @@
 
 	// Vérification si l'utilisateur est administrateur
 	function est_administrateur($connexion, $id_utilisateur) {
-	  	// requête SQL qui compte le nombre de lignes dans la table administrateurs où l'identifiant de l'utilisateur correspond à $id_utilisateur
+	// requête SQL qui compte le nombre de lignes dans la table administrateurs où l'identifiant de l'utilisateur correspond à $id_utilisateur
     	$sql = "SELECT COUNT(*) AS admin_count FROM administrateurs WHERE id = ?"; 
     	$requete = $connexion->prepare($sql);
 	  	$requete->bind_param("i", $id_utilisateur); // bind_param utilisée pour lier les valeurs aux paramètres dans la requête SQL
