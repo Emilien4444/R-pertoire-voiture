@@ -110,10 +110,10 @@
 
                 // Formulaire pour supprimer des favoris
 			  	echo "<div class='action-buttons-container'>";
-                	echo "<form action='supprimer_des_favoris.php' method='POST'>"; 
-                		echo "<input type='hidden' name='id_voiture' value='" . $row["id"] . "'>";
-                		echo "<button type='submit' name='supprimer_des_favoris'>Supprimer des Favoris</button>"; 
-                	echo "</form>";
+                			echo "<form action='supprimer_des_favoris.php' method='POST'>"; 
+                				echo "<input type='hidden' name='id_voiture' value='" . $row["id"] . "'>";
+                				echo "<button type='submit' name='supprimer_des_favoris'>Supprimer des Favoris</button>"; 
+                			echo "</form>";
 				echo "</div>";
              echo "</div>";
             }
