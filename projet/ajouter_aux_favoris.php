@@ -33,7 +33,7 @@ if(isset($_POST['ajouter_aux_favoris'])) {
       $stmt->execute();
 
       // Redirection vers la page vehicule-communaute.php avec un paramètre de succès
-      header("Location: favoris.php?success=1");
+      header("Location: favoris.php");
       exit();
     } else {
       // Gestion des erreurs si la préparation de la requête a échoué
